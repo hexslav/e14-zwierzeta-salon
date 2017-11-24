@@ -1,0 +1,4 @@
+zapytanie 1:   SELECT nazwa, cena FROM uslugi
+zapytanie 2:   SELECT imie, rodzaj, nastepna_wizyta, telefon FROM zwierzeta WHERE nastepna_wizyta IS NOT NULL 
+zapytanie 3:   SELECT Z.rodzaj, U.nazwa FROM zwierzeta Z, uslugi U WHERE U.id=Z.Usluga_id 
+zapytanie 4:   SELECT MIN(cena) FROM uslugi
